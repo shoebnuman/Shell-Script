@@ -1,0 +1,14 @@
+#!/bin/bash
+Name[0]="Adilabad"
+Name[1]="NRML"
+Name[2]="BNS"
+Name[3]="MNCL"
+Name[4]="ASF"
+
+echo "Dist depot: ${Name[0]}"
+echo "Top depot: ${Name[1]}"
+echo "18Z depot: ${Name[2]}"
+echo "19Z depot: ${Name[3]}"
+echo "20Z depot: ${Name[4]}"
+
+echo "All depots in Adilabad region: ${Name[*]}"
